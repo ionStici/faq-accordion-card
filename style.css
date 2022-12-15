@@ -1,0 +1,71 @@
+/* STYLES RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* prettier-ignore */
+    background-image: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+    min-height: 100vh;
+
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #1e1f36;
+}
+
+.heading-1 {
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+/* CARD */
+
+.card {
+    width: 92rem;
+    background-color: #fff;
+    border-radius: 2.3rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2.5rem 4rem -2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    padding-right: 7rem;
+}
+
+.card__col-left {
+}
+
+.card__col-right {
+}
+
+.card__box {
+}
+
+.card__qn {
+}
+
+.card__ans {
+}
