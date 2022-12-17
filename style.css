@@ -172,3 +172,31 @@ body {
 }
 
 /* MEDIA QUERIES */
+
+/* 960/16=60 */
+@media only screen and (max-width: 60em) {
+    html {
+        font-size: 9px;
+    }
+}
+
+/* 848/16=53 */
+@media only screen and (max-width: 53em) {
+    html {
+        font-size: 8px;
+    }
+}
+
+/* 752/16=47 */
+@media only screen and (max-width: 47em) {
+    html {
+        font-size: 6.9px;
+    }
+}
+
+/* 640/16=40 */
+@media only screen and (max-width: 40em) {
+    html {
+        font-size: 6px;
+    }
+}
