@@ -11,19 +11,18 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ## Screenshot
 
-![](./)
+![](./images/screenshot.png)
 
 ## Links
 
--   [Solution URL]()
--   [Live Site URL]()
+-   [Solution URL](https://github.com/ionStici/faq-accordion-card)
+-   [Live Site URL](https://ionstici.github.io/faq-accordion-card/)
 
 ## Built with
 
-<!-- -   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   CSS Grid -->
+-   Semantic HTML5 markup
+-   Flexbox and CSS Grid
+-   Some JavaScript
 
 ## Author
 
