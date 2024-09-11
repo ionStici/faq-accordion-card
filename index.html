@@ -1,70 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <title>Frontend Mentor | FAQ Accordion Card</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./style.css">
+    <meta
+      name="description"
+      content="Solution to the FAQ Accordion Card challenge on Frontend Mentor"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
-</head>
-<body>
-
-
+  </head>
+  <body>
     <main class="main">
+      <img
+        class="bg-box"
+        src="./images/illustration-box-desktop.svg"
+        alt="a box as background image"
+      />
 
-        <img class="bg-box" src="./images/illustration-box-desktop.svg" alt="a box as background image">
-        
-        <section class="card">
-            <div class="card__col-left">
-                <img class="bg-pattern" src="./images/bg-pattern-desktop.svg" alt="background pattern">
-                <img class="bg-pattern--mobile" src="./images/bg-pattern-mobile.svg" alt="background pattern">
-                <img class="bg-woman" src="./images/illustration-woman-online-desktop.svg" alt="background illustration">
-                <img class="bg-woman--mobile" src="./images/illustration-woman-online-mobile.svg" alt="background illustration">
-            </div>
+      <section class="card">
+        <div class="card__col-left">
+          <img class="bg-pattern" src="./images/bg-pattern-desktop.svg" alt="background pattern" />
+          <img
+            class="bg-pattern--mobile"
+            src="./images/bg-pattern-mobile.svg"
+            alt="background pattern"
+          />
+          <img
+            class="bg-woman"
+            src="./images/illustration-woman-online-desktop.svg"
+            alt="background illustration"
+          />
+          <img
+            class="bg-woman--mobile"
+            src="./images/illustration-woman-online-mobile.svg"
+            alt="background illustration"
+          />
+        </div>
 
+        <div class="card__col-right">
+          <h1 class="heading-1">FAQ</h1>
 
+          <div class="card__box">
+            <p class="card__qn">How many team members can I invite?</p>
+            <p class="card__ans">
+              You can invite up to 2 additional users on the Free plan. There is no limit on team
+              members for the Premium plan.
+            </p>
+            <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 .799l4 4 4-4"
+                stroke="#F47B56"
+                stroke-width="2"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
 
-            <div class="card__col-right">
-                <h1 class="heading-1">FAQ</h1>
+          <div class="card__box">
+            <p class="card__qn">What is the maximum file upload size?</p>
+            <p class="card__ans">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+            <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 .799l4 4 4-4"
+                stroke="#F47B56"
+                stroke-width="2"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
 
-                <div class="card__box">
-                    <p class="card__qn">How many team members can I invite?</p>
-                    <p class="card__ans">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
-                    <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-                </div>
+          <div class="card__box">
+            <p class="card__qn">How do I reset my password?</p>
+            <p class="card__ans card__ans--long">
+              Click “Forgot password” from the login page or “Change password” from your profile
+              page. A reset link will be emailed to you.
+            </p>
+            <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 .799l4 4 4-4"
+                stroke="#F47B56"
+                stroke-width="2"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
 
-                <div class="card__box">
-                    <p class="card__qn">What is the maximum file upload size?</p>
-                    <p class="card__ans">No more than 2GB. All files in your account must fit your allotted storage space.</p>
-                    <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-                </div>
+          <div class="card__box">
+            <p class="card__qn">Can I cancel my subscription?</p>
+            <p class="card__ans">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+            <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 .799l4 4 4-4"
+                stroke="#F47B56"
+                stroke-width="2"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
 
-                <div class="card__box">
-                    <p class="card__qn">How do I reset my password?</p>
-                    <p class="card__ans card__ans--long">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
-                    <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-                </div>
-
-                <div class="card__box">
-                    <p class="card__qn">Can I cancel my subscription?</p>
-                    <p class="card__ans">Yes! Send us a message and we’ll process your request no questions asked.</p>
-                    <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-                </div>
-
-                <div class="card__box">
-                    <p class="card__qn">Do you provide additional support?</p>
-                    <p class="card__ans">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-                    <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#F47B56" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
-                </div>
-            </div>
-        </section>
+          <div class="card__box">
+            <p class="card__qn">Do you provide additional support?</p>
+            <p class="card__ans">
+              Chat and email support is available 24/7. Phone lines are open during normal business
+              hours.
+            </p>
+            <svg class="card__icon" width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 .799l4 4 4-4"
+                stroke="#F47B56"
+                stroke-width="2"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
     </main>
-
-
-</body>
+  </body>
 </html>
